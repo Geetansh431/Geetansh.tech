@@ -34,7 +34,7 @@ export const experiencesData = [
     "location": "SDE Intern",
     "description": "Rippling is a unified workforce management platform that streamlines HR, IT, and finance operations for businesses. It enables seamless employee onboarding, payroll, benefits administration, device and app management—all from a single dashboard. With powerful automation and global capabilities, Rippling helps companies reduce manual tasks, stay compliant, and scale efficiently.",
     "icon": React.createElement(BookIcon),
-    "date": "August 2025 - Present"
+    "date": "May 2025 - Present"
   }
 ] as const;
 
