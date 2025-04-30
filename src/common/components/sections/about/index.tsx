@@ -1,7 +1,6 @@
 'use client';
 
 import { useSectionInView } from '@/common/lib/hooks';
-import portfolioImg from '@/../public/images/geetansh.png';
 import { smoothScrollTo } from '@/common/lib/utils';
 import SectionDivider from '@/common/components/shared/section-divider';
 import SectionHeading from '@/common/components/shared/section-heading';
@@ -73,12 +72,13 @@ export default function About() {
                 <div className="absolute inset-0 z-20 rounded-full bg-gradient-to-b from-[#ffcbb4] via-[#e0afa0] to-[#e29578] transition-opacity group-hover:opacity-30" />
                 <div className="absolute inset-0">
                   <Image
-                    src={portfolioImg}
+                    src="/images/geetansh.png"
                     alt="portfolio image"
                     placeholder="blur"
                     width={470}
                     height={470}
                     className="z-10 rounded-full lg:h-[380px] lg:w-[380px] xl:h-[470px] xl:w-[470px]"
+                    blurDataURL="/images/geetansh.png"
                   />
                 </div>
               </div>

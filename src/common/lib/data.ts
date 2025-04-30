@@ -1,14 +1,6 @@
 import React from 'react';
-import StudyNotionImg from '@/../public/images/StudyNotion.png';
-import campwithusImg from '@/../public/images/camp-with-us.png';
-import carcatalogImg from '@/../public/images/car-catalog.png';
-import filedriveImg from '@/../public/images/file-drive.png';
-import projectmanagementImg from '@/../public/images/project-management.png';
-import reactfoodImg from '@/../public/images/react-food.png';
-import talk2hireImg from '@/../public/images/talk2hire.png';
-import bidbazzarImg from '@/../public/images/bidbazzar.jpeg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
-import ripplingImg from '@/../public/images/rippling.png';
+
 export const links = [
   {
     name: 'Home',
@@ -44,38 +36,28 @@ export const experiencesData = [
     "icon": React.createElement(BookIcon),
     "date": "August 2025 - Present"
   }
-  
-
 ] as const;
-
-export const images = {
-  campwithusImg,
-  carcatalogImg,
-  filedriveImg,
-  projectmanagementImg,
-  reactfoodImg,
-};
 
 export const projectsData = [
   {
     title: 'StudyNotion',
     description: `A comprehensive ed-tech platform that revolutionizes online learning. Features include course creation, student enrollment, payment integration, and interactive learning materials.`,
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind'],
-    imageUrl: StudyNotionImg,
+    imageUrl: '/images/StudyNotion.png',
     link: 'https://study-notion-theta-dusky.vercel.app/',
   },
   {
     title: 'Talk2Hire',
     description: `Ready to master your job interviews? Built a real-time AI-driven mock interview platform with Next.js and Vapi AI, offering personalized prep sessions just for you.`,
     tags: ['Next', 'Firebase', 'Google Gemini', 'Tailwind'],
-    imageUrl: talk2hireImg,
+    imageUrl: '/images/talk2hire.png',
     link: 'https://talk2-hire.vercel.app/',
   },
   {
     title: 'BidBazzar',
     description: `BidBazzar is a sophisticated online auction platform that connects auctioneers and bidders in a seamless, secure, and user-friendly environment. Built with modern technologies and best practices, it offers a comprehensive solution for managing auctions, bids, and payments.`,
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-    imageUrl: bidbazzarImg,
+    imageUrl: '/images/bidbazzar.jpeg',
     link: 'https://bidbazzar.vercel.app/',
   },
 ] as const;
