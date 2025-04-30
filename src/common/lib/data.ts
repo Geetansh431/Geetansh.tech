@@ -5,7 +5,7 @@ import carcatalogImg from '@/../public/images/car-catalog.png';
 import filedriveImg from '@/../public/images/file-drive.png';
 import projectmanagementImg from '@/../public/images/project-management.png';
 import reactfoodImg from '@/../public/images/react-food.png';
-import talk2hireImg from '@/../public/images/talk2hire.png';
+import talk2hireImg from '@/../public/images/Talk2hire.png';
 import bidbazzarImg from '@/../public/images/bidbazzar.jpeg';
 import { BookIcon, BriefcaseBusinessIcon } from 'lucide-react';
 import ripplingImg from '@/../public/images/rippling.png';
